@@ -1,0 +1,7 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+//Optional files - If you dont use the corresponding scripts/fonts comment em out
+@import 'assets/font-awesome'; // <------- Font Awesome Icon font
+
+// Any additional imported files //
+@import 'theme/theme';  // <--------- That's where you can add your own design. Thats your part!

@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.button {
+	background: #FFFFFF;
+	border: none;
+	color: $black;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $font-family--buttons;
+	font-size: .9rem;
+	font-weight: $bold;
+	line-height: 1;
+	margin: 0;
+	padding: .9rem 1.5rem;
+	text-align: center;
+	text-decoration: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+
+	@include transition(all, .3s, linear);
+}

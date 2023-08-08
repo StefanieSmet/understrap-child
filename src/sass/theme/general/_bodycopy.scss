@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Body Copy
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+* {
+	-webkit-font-smoothing: antialiased;
+	        font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+	color: $text-color;
+	font-family: $font-family--base;
+	font-size: $font-size--base;
+	line-height: $line-height--base;
+}
+
+p {
+	margin: .75rem 0;
+}
+
+p,
+.pp--text {
+	+h1,
+	+h2,
+	+h3,
+	+h4,
+	+h5,
+	+h6 {
+		margin-top: 3rem;
+	}
+}
+
+
+/* General Modifiers
+   ========================================================================== */
+.text--upper {
+	text-transform: uppercase;
+}
+
+.text--center {
+	text-align: center;
+}
+
+.text--right {
+	text-align: right;
+}

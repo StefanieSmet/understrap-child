@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Colors
+
+   This file is exclusively intended for setting up variables
+   Never add styles directly to this file
+   ========================================================================== */
+
+/* Greyscale
+   ========================================================================== */
+$black: #101010;
+$black--light: #1C1919;
+$black--lighter: #24201F;
+$white: #F5F7F8;
+$grey: #EBEBEB;
+$grey--darker: #606060;
+$grey--dark: #CCCCCC;
+$grey--light: #F6F2F2;
+$grey--lighter: #F9F9F9;
+
+/* Brand colors
+   ========================================================================== */
+$brand-color--primary: #4BFFA5; //green
+$brand-color--secondary: #FFC300; //yellow
+$brand-color--tertiary: #002949; //light blue
+
+
+/* Title colors
+   ========================================================================== */
+$title-color: $brand-color--tertiary;
+$title-color--alt: #648DBC;
+
+
+/* Size colors
+   ========================================================================== */
+$size-color-yellow: #E8D95C;
+$size-color-green: #67A644;
+$size-color-blue: #36588C;
+$size-color-black: #48423F;
+$size-color-grey: #C7D6D0;
+$size-color-brown: #AE9170;
+$size-color-purple: #88559B;
+
+/* Social media colors
+   ========================================================================== */
+$linkedin: #0077B5;
+$twitter: #55ACEE;
+$facebook: #3B5998;
+$youtube: #E52D27;
+
+
+/* Specifics
+   ========================================================================== */
+$text-color: $black;
+$hr-color: $grey--light;
+$border-color: $grey;
